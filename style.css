@@ -1,0 +1,70 @@
+body{
+    background-image: url(./images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.ctn-comenzar{
+    background-color: aquamarine;
+    width: 10%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.ctn-comenzar button{
+    width: 100%;
+    border-radius: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: #ffbf00;
+    font-weight: bold;
+}
+.ctn-card{
+    width: 30%;
+    height: 80vh;
+    margin: auto;
+    margin-top: 8%;
+    display: none;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:#f1d793;
+}
+.ctn-card .ctn-img-escuela{
+    width: 30%;
+    height: 20vh;
+    border-radius: 80px;
+    margin: -15% auto;
+}
+.ctn-card .ctn-img-personaje{
+    width: 40%;
+    height: 10vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20%;
+}
+.ctn-card .ctn-img-escuela img{
+    width: 100%;
+    height: 100px;
+    border-radius: 80px;
+}
+.ctn-card .ctn-img-personaje img{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+}
+.ctn-card .ctn-titulo{
+    width: 50%;
+    height: 20vh;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.ctn-card .btn-generar{
+    background-color: #ffbf00;
+    width: 30%;
+    height: 10vh;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 40px;
+}
